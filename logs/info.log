@@ -1,0 +1,331 @@
+[2021-03-08 09:52:44] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 6024 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 09:52:44] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 09:52:47] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 09:52:47] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 09:52:47] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+[2021-03-08 09:52:49] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 09:52:49] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 09:52:49] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 09:52:49] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 09:52:49] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4874 ms
+[2021-03-08 09:52:50] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 09:52:51] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 09:52:52] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 09:52:53] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 09:52:53] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 09:52:54] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 09:52:54] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 09:52:54] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 11.957 seconds (JVM running for 16.552)
+[2021-03-08 09:54:18] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 09:54:18] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 09:54:18] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 8 ms
+[2021-03-08 09:56:14] INFO  com.sir.springbootdemo.util.RedisUtils 62 putValue - [REDIS--ERROR] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 10:00:17] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 9676 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 10:00:17] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 10:00:20] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 10:00:20] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 10:00:20] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+[2021-03-08 10:00:21] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 10:00:21] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 10:00:21] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 10:00:22] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 10:00:22] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3985 ms
+[2021-03-08 10:00:23] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 10:00:23] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 10:00:24] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 10:00:26] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 10:00:26] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 10:00:26] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 10:00:26] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 10:00:27] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 10.161 seconds (JVM running for 14.042)
+[2021-03-08 10:00:37] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 10:00:37] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 10:00:37] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 4 ms
+[2021-03-08 10:00:40] INFO  com.sir.springbootdemo.util.RedisUtils 42 putValue - [REDIS] put k-v key=%s, value=%s
+[2021-03-08 10:01:43] INFO  com.sir.springbootdemo.util.RedisUtils 60 putValue - [REDIS] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 10:08:07] INFO  com.sir.springbootdemo.util.RedisUtils 62 putValue - [REDIS--ERROR] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 10:09:58] INFO  com.sir.springbootdemo.util.RedisUtils 62 putValue - [REDIS--ERROR] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 10:31:18] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 305 buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sir.springbootdemo.SpringbootdemoApplicationTests], using SpringBootContextLoader
+[2021-03-08 10:31:18] INFO  org.springframework.test.context.support.AbstractContextLoader 264 generateDefaultLocations - Could not detect default resource locations for test class [com.sir.springbootdemo.SpringbootdemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2021-03-08 10:31:19] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 245 getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2021-03-08 10:31:19] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 174 getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@928763c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e25951c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@15f47664, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@471a9022, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@dc9876b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f666ebb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19976a65, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a1f72f5, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b2c5e02, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@57a3e26a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75c56eb9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4bc222e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2dc9b0f5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6531a794, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3b5fad2d]
+[2021-03-08 10:31:21] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplicationTests using Java 1.8.0_231 on 刘sir with PID 2416 (started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 10:31:21] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 10:31:24] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 10:31:24] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 10:31:24] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+[2021-03-08 10:31:28] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 0 (http)
+[2021-03-08 10:31:28] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 10:31:28] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 10:31:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 10:31:29] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 7973 ms
+[2021-03-08 10:31:31] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 10:31:31] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 10:31:34] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 10:31:36] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 51398 (http) with context path ''
+[2021-03-08 10:31:36] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 10:31:36] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 10:31:36] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 10:31:37] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplicationTests in 18.066 seconds (JVM running for 22.141)
+[2021-03-08 10:31:43] INFO  com.alibaba.druid.pool.DruidDataSource 2039 close - {dataSource-1} closing ...
+[2021-03-08 10:31:43] INFO  com.alibaba.druid.pool.DruidDataSource 2111 close - {dataSource-1} closed
+[2021-03-08 10:32:32] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 305 buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sir.springbootdemo.SpringbootdemoApplicationTests], using SpringBootContextLoader
+[2021-03-08 10:32:32] INFO  org.springframework.test.context.support.AbstractContextLoader 264 generateDefaultLocations - Could not detect default resource locations for test class [com.sir.springbootdemo.SpringbootdemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2021-03-08 10:32:33] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 245 getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2021-03-08 10:32:33] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 174 getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@928763c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e25951c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@15f47664, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@471a9022, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@dc9876b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f666ebb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19976a65, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a1f72f5, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b2c5e02, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@57a3e26a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75c56eb9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4bc222e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2dc9b0f5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6531a794, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3b5fad2d]
+[2021-03-08 10:32:45] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 305 buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sir.springbootdemo.SpringbootdemoApplicationTests], using SpringBootContextLoader
+[2021-03-08 10:32:45] INFO  org.springframework.test.context.support.AbstractContextLoader 264 generateDefaultLocations - Could not detect default resource locations for test class [com.sir.springbootdemo.SpringbootdemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2021-03-08 10:32:46] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 245 getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2021-03-08 10:32:46] INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper 174 getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@928763c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e25951c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@15f47664, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@471a9022, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@dc9876b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f666ebb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19976a65, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a1f72f5, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b2c5e02, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@57a3e26a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75c56eb9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4bc222e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2dc9b0f5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6531a794, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3b5fad2d]
+[2021-03-08 10:32:48] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplicationTests using Java 1.8.0_231 on 刘sir with PID 4036 (started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 10:32:48] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 10:34:24] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 19324 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 10:34:24] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 10:34:27] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 10:34:27] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 10:34:27] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+[2021-03-08 10:34:29] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 10:34:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 10:34:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 10:34:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 10:34:29] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4294 ms
+[2021-03-08 10:34:30] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 10:34:30] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 10:34:32] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 10:34:33] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 10:34:33] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 10:34:34] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 10:34:34] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 10:34:34] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 11.198 seconds (JVM running for 15.476)
+[2021-03-08 10:35:25] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 10:35:25] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 10:35:25] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 8 ms
+[2021-03-08 10:35:28] INFO  com.sir.springbootdemo.util.RedisUtils 42 putValue - [REDIS] put k-v key=%s, value=%s
+[2021-03-08 10:37:14] INFO  com.sir.springbootdemo.util.RedisUtils 158 delete - [REDIS] Delete key=%s
+[2021-03-08 10:41:57] INFO  com.sir.springbootdemo.util.RedisUtils 297 expire - [REDIS] Expire success key=%s, timeout=%s
+[2021-03-08 14:19:05] INFO  io.netty.util.internal.logging.AbstractInternalLogger 217 log - [channel=0xb9d8d4f1, /192.168.43.248:51574 -> /192.168.43.144:6379, chid=0x1] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。 java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_231]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_231]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_231]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_231]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_231]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134) ~[netty-buffer-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.59.Final.jar:4.1.59.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.59.Final.jar:4.1.59.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+
+[2021-03-08 14:19:06] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was /192.168.43.144:6379
+[2021-03-08 14:19:11] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:19:24] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:19:40] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:20:10] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:20:40] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:21:10] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:21:40] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:22:11] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:22:41] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:23:11] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:23:41] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:24:11] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:24:41] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:25:11] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:25:41] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:26:11] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:26:41] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:27:12] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:27:42] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:28:12] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:28:42] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:29:12] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:29:42] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:30:12] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:30:42] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:31:12] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:31:42] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:32:13] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:32:43] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:33:13] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:33:43] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:34:13] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:34:43] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:35:13] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:35:43] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:36:13] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:36:43] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:37:14] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 14:37:44] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 15:39:06] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 15:39:36] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 15:40:06] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 15:40:36] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 15:41:06] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 15:41:36] INFO  io.netty.util.internal.logging.AbstractInternalLogger 171 log - Reconnecting, last destination was 192.168.43.144:6379
+[2021-03-08 15:41:36] INFO  io.lettuce.core.protocol.ReconnectionHandler 161 lambda$null$3 - Reconnected to 192.168.43.144:6379, Channel channel=0x72d62352, /192.168.43.248:60891 -> /192.168.43.144:6379
+[2021-03-08 17:08:27] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 19212 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 17:08:27] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 17:08:28] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 17:08:28] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 17:08:28] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[2021-03-08 17:08:28] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 17:08:28] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 17:08:28] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 17:08:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 17:08:29] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 993 ms
+[2021-03-08 17:08:29] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 17:08:29] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 17:08:29] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 17:08:30] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 17:08:30] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 17:08:30] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 17:08:30] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 17:08:30] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 2.559 seconds (JVM running for 3.627)
+[2021-03-08 17:10:01] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 17:10:01] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 17:10:01] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 1 ms
+[2021-03-08 17:10:22] INFO  com.sir.springbootdemo.util.RedisUtils 62 putValue - [REDIS--ERROR] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 17:12:26] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 19116 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 17:12:26] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 17:12:26] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 17:12:26] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 17:12:26] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[2021-03-08 17:12:27] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 17:12:27] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 17:12:27] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 17:12:27] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 17:12:27] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1001 ms
+[2021-03-08 17:12:27] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 17:12:27] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 17:12:28] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 17:12:28] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 17:12:28] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 17:12:28] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 17:12:28] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 17:12:28] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 2.588 seconds (JVM running for 3.697)
+[2021-03-08 17:15:09] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 17:15:09] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 17:15:09] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 2 ms
+[2021-03-08 17:15:29] INFO  com.sir.springbootdemo.util.RedisUtils 62 putValue - [REDIS--ERROR] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 17:23:49] INFO  com.sir.springbootdemo.util.RedisUtils 95 getValue - [REDIS] Get k-v key=20210308:18700730940, value=null
+[2021-03-08 17:23:49] INFO  com.sir.springbootdemo.util.RedisUtils 60 putValue - [REDIS] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 17:23:51] INFO  com.sir.springbootdemo.util.RedisUtils 95 getValue - [REDIS] Get k-v key=20210308:18700730940, value=1424
+[2021-03-08 17:23:51] INFO  com.sir.springbootdemo.util.RedisUtils 95 getValue - [REDIS] Get k-v key=20210308:18700730940, value=1424
+[2021-03-08 17:27:11] INFO  com.sir.springbootdemo.util.RedisUtils 95 getValue - [REDIS] Get k-v key=20210308:18700730940, value=null
+[2021-03-08 17:27:11] INFO  com.sir.springbootdemo.util.RedisUtils 60 putValue - [REDIS] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 17:27:12] INFO  com.sir.springbootdemo.util.RedisUtils 95 getValue - [REDIS] Get k-v key=20210308:18700730940, value=3465
+[2021-03-08 17:29:00] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 20828 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 17:29:00] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 17:29:01] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 17:29:01] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 17:29:01] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[2021-03-08 17:29:01] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 17:29:01] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 17:29:01] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 17:29:01] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 17:29:01] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1001 ms
+[2021-03-08 17:29:02] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 17:29:02] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 17:29:02] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 17:29:02] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 17:29:02] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 17:29:02] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 17:29:02] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 17:29:03] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 2.569 seconds (JVM running for 3.579)
+[2021-03-08 17:29:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 17:29:29] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 17:29:29] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 1 ms
+[2021-03-08 17:29:29] INFO  com.sir.springbootdemo.util.RedisUtils 95 getValue - [REDIS] Get k-v key=20210308:18700730940, value=null
+[2021-03-08 17:29:29] INFO  com.sir.springbootdemo.util.RedisUtils 60 putValue - [REDIS] put k-v  key=%s, value=%s, timeout=%s
+[2021-03-08 17:36:04] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 13988 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 17:36:04] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 17:36:04] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 17:36:04] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 17:36:04] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[2021-03-08 17:36:05] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 17:36:05] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 17:36:05] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 17:36:05] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 17:36:05] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1027 ms
+[2021-03-08 17:36:05] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 17:36:05] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 17:36:05] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 17:36:06] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 17:36:06] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 17:36:06] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 17:36:06] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 17:36:06] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 2.644 seconds (JVM running for 3.66)
+[2021-03-08 17:36:37] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 17:36:37] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 17:36:37] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 2 ms
+[2021-03-08 17:36:58] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 16668 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 17:36:58] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 17:36:59] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 17:36:59] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 17:36:59] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[2021-03-08 17:36:59] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 17:36:59] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 17:36:59] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 17:36:59] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 17:36:59] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 992 ms
+[2021-03-08 17:36:59] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 17:36:59] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 17:37:00] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 17:37:00] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 17:37:00] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 17:37:00] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 17:37:00] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 17:37:00] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 2.549 seconds (JVM running for 3.606)
+[2021-03-08 17:37:07] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 17:37:07] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 17:37:07] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 2 ms
+[2021-03-08 17:45:19] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 3544 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 17:45:19] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 17:45:19] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 17:45:19] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 17:45:19] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[2021-03-08 17:45:20] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 17:45:20] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 17:45:20] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 17:45:20] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 17:45:20] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1010 ms
+[2021-03-08 17:45:20] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 17:45:20] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 17:45:20] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 17:45:21] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 17:45:21] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 17:45:21] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 17:45:21] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 17:45:21] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 2.545 seconds (JVM running for 3.612)
+[2021-03-08 17:46:01] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 17:46:01] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 17:46:01] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 1 ms
+[2021-03-08 17:50:08] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting SpringbootdemoApplication using Java 1.8.0_231 on 刘sir with PID 3248 (D:\IdeaWorkSpace\springbootdemo\target\classes started by pc in D:\IdeaWorkSpace\springbootdemo)
+[2021-03-08 17:50:08] INFO  org.springframework.boot.SpringApplication 664 logStartupProfileInfo - The following profiles are active: dev
+[2021-03-08 17:50:08] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 250 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-03-08 17:50:08] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 128 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-03-08 17:50:08] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 188 registerRepositoriesIn - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[2021-03-08 17:50:09] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8081 (http)
+[2021-03-08 17:50:09] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2021-03-08 17:50:09] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[2021-03-08 17:50:09] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2021-03-08 17:50:09] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 289 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1040 ms
+[2021-03-08 17:50:09] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2021-03-08 17:50:09] INFO  com.alibaba.druid.pool.DruidDataSource 986 init - {dataSource-1} inited
+[2021-03-08 17:50:10] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2021-03-08 17:50:10] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8081 (http) with context path ''
+[2021-03-08 17:50:10] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+[2021-03-08 17:50:10] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+[2021-03-08 17:50:10] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+[2021-03-08 17:50:10] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started SpringbootdemoApplication in 2.666 seconds (JVM running for 3.747)
+[2021-03-08 17:50:20] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-08 17:50:20] INFO  org.springframework.web.servlet.FrameworkServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2021-03-08 17:50:20] INFO  org.springframework.web.servlet.FrameworkServlet 547 initServletBean - Completed initialization in 1 ms
+[2021-03-08 17:50:21] INFO  com.sir.springbootdemo.util.RedisUtils 95 getValue - [REDIS] Get k-v key=20210308:18700730940, value=null
+[2021-03-08 17:50:21] INFO  com.sir.springbootdemo.util.RedisUtils 60 putValue - [REDIS] put k-v  key=%s, value=%s, timeout=%s

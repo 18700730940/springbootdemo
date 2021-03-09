@@ -1,0 +1,20 @@
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20000} created. SELECT count(0) FROM Sysuser
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20000} created. SELECT count(0) FROM Sysuser
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20000} Types : []
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Types : []
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20000} executed. 10.0294 millis. SELECT count(0) FROM Sysuser
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20000} executed. 10.9533 millis. SELECT count(0) FROM Sysuser
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20000} clearParameters. 
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20000} clearParameters. 
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20001} created. select * from Sysuser LIMIT ? 
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20001} created. select * from Sysuser LIMIT ? 
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20001} Parameters : [9]
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20001} Types : [INTEGER]
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Parameters : [9]
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Types : [INTEGER]
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20001} executed. 3.2903 millis. select * from Sysuser LIMIT ? 
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20001} executed. 3.8669 millis. select * from Sysuser LIMIT ? 
+[2021-03-04 09:50:50] DEBUG 134 statementLog - {conn-10001, pstmt-20001} clearParameters. 
+[2021-03-04 09:50:50] DEBUG 137 statementLog - {conn-10001, pstmt-20001} clearParameters. 

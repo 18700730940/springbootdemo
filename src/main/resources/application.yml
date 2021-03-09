@@ -1,0 +1,4 @@
+#统一配置切换入口
+spring:
+  profiles:
+    active: dev
